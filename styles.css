@@ -38,11 +38,31 @@ hr{
     border-radius: 0.5rem;
     border : 2px solid var(--primary-color);
 }
-
+.navigation{
+    background-color : var(--primary-color);
+    color : white;
+    padding : 1rem;
+    border-bottom-left-radius: 1.5rem;
+}
 .list-non-bullet{
     list-style : none;
 }
 .list-inline{
     display: inline;
-    padding: 0rem 0.5rem
+    padding: 0rem 0.5rem;
+}
+.nav-pills{
+    text-align:right;
+}
+.navigation .nav-brand{
+    font-weight:bold;
+    font-size:1.1rem;
+}
+.navigation .link{
+    color : white;
+    margin : auto;
+}
+.navigation .active-link{
+    font-weight: bold;
+
 }

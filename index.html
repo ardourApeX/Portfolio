@@ -35,18 +35,17 @@
 
     <h2>@Lists</h2>
     <h3>Unordered List</h3>
-    <ul class = "list-non-bullet">
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
     <h3>Unordered Inline List</h3>
-    <ul class = "list-non-bullet">
-        <li class = "list-inline">Inline Item Two</li>
-        <li class = "list-inline">Inline Item One</li>
-        <li class = "list-inline">Inline Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-inline">Inline Item Two</li>
+        <li class="list-inline">Inline Item One</li>
+        <li class="list-inline">Inline Item Three</li>
     </ul>
-    <p>We can make it inline by using css because browser do not know how to put it in one line</p>
     <h3>Reverse Ordered List</h3>
     <ol reversed>
         <li>Item One</li>
@@ -54,20 +53,20 @@
         <li>Item Three</li>
     </ol>
     <hr>
-    <h3>Adding A nav bar</h3>
-    <nav>
-        <div>I am a Brand</div>
-        <div>
-            <li>
-                <a href="/">home</a>
+    <h2>@nav</h2>
+    <nav class="navigation">
+        <div class="nav-brand">I am a Brand</div>
+        <ul class = "list-non-bullet nav-pills">
+            <li class = list-inline>
+                <a class = "link active-link" href="/">home</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class = list-inline>
+                <a class = "link" href="/">about</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class = list-inline>
+                <a class = "link" href="/">products</a>
             </li>
-        </div>
+        </ul>
     </nav>
     <hr>
 
