@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+</style>
+
+:root{
+    --primary-color : #1E40AF;
+
+}
+/* Selecting Font */
+body{
+    font-family: 'PT Serif', serif;
+}
+#Header{
+    font-family: 'Arvo', serif;
+    }
+.container{
+    padding-left : 1rem;
+    padding-right : 1rem;
+}
+.center-container{
+    max-width : 600px;
+    margin : auto;
+}
+.link{
+    text-decoration: none;
+}
+.link-primary{
+    background-color : var(--primary-color);
+    border-radius : 0.5rem;
+} 
