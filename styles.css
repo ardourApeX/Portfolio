@@ -81,7 +81,9 @@ hr{
     font-weight: bold;
 
 }
-
+.space-list{
+    padding:2rem;
+}
 /* Hero  */
  .hero{
      padding: 2rem;
